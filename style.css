@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Intro';
+    src: url('./fonts/IntroDemoCond-LightCAPS.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Intro', sans-serif;
+    font-weight: bold;
+}
+
+.navbar--main {
+    padding: 10px 20px;
+}
+
+.nav--main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 10px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-lg{
+    position: relative;
+    width: 270px;
+    height: 84px; 
+}
+
+.bg-indigo{
+    background-color: #5222D0;
+    border-radius: 100px;
+    color: aliceblue;
+    font-family: 'Intro', sans-serif;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: #5222D0;
+    font-family: 'Intro', sans-serif;
+    font-weight: bold;
+
+}
+
+.form-card{
+    width: 365px;
+    height: 233px;
+    background-color: #ec615b;
+}
+
+.card {
+    height: 100%;
+}
+
+.form-control{
+    width: 323px;
+    height: 50px;
+    margin: 20px;
+    margin-left: 20px;
+}
+
+.btn-primary{
+    width: 135px;
+    height: 38px;
+    margin-left: 20px ;
+    background-color: #5222d0;
+    border-radius: 100px;
+}
+
+.news-title{
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    margin-left: 20px;
+}
+
